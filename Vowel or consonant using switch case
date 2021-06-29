@@ -1,0 +1,18 @@
+Class Digit
+{
+Public static void main(String args[]) 
+{
+int n=567;
+int evendigit=0,odddigit=0;
+while(n>0) 
+{
+int rem=n%10;
+if(rem%2==0)
+evendigit++;
+else
+Odddigit++;
+n=n/10;
+System.out.println("Even Digit=="+evendigit) ;
+System.out.println("Odd Digit=="+odddigit);
+}
+}
